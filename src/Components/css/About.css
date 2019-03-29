@@ -1,0 +1,55 @@
+.about{
+    padding-top: 100px;
+    padding-bottom: 120px;
+    background-color: #2f1364fb;
+    text-align: center;
+    
+}
+.about h1{
+    display: flex;
+    justify-content:space-around;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: rgb(22, 20, 17);
+    margin: auto;
+
+
+}
+.about > .banner{
+    background-color: blueviolet;
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+
+
+
+}
+.about > .banner h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: aquamarine;
+
+}
+.about > .banner hr{
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
+}
+
+.about > .banner p{
+    color: antiquewhite;
+    font-size: 20px;
+    padding: 1em;
+}
+.socal-link{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+.socal-link i{
+    color: antiquewhite;
+    font-size: 3em;
+    padding: 8px;
+}

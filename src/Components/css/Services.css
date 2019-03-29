@@ -1,0 +1,51 @@
+.services h3{
+    font-size: 35px;
+    text-transform: uppercase;
+    color: rgb(22, 20, 17);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+
+}
+.services h2{
+    color: rgba(65, 149, 245, 0.678);
+    font-size: 48px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.services{
+    padding-top: 650px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+.services > .row{
+    display: flex;
+    justify-content:space-around;
+}
+
+.services > .row span{
+    background-color: rgb(35, 243, 53);
+    width: 112px;
+    height: 112px;
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 36px;
+    line-height: 120px;
+}
+.services > .row h4{
+    margin-bottom: 10px;
+    font-family: inherit;
+    line-height: 1.2;
+    font-weight: 500;
+    color: inherit;
+    font-size: 20px;
+    color: blueviolet;
+    margin-right: 30px;
+}
+.services > .row p{
+    font-size: 15px;
+    color: rgb(83, 94, 95);
+}
+

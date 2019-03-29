@@ -1,0 +1,39 @@
+.hade{
+    font-size: 50px;
+    color: rgba(225,225,225,.1);
+    background-image: url(./rgb3.png);
+    background-repeat: repeat-x; 
+    -webkit-background-clip:text; 
+    animation: animate 15s linear infinite;
+}
+     @keyframes animate{
+         0%{
+             background-position: left 0px top 10px;
+         }
+         40%{
+             background-position: left 900px top 10px;
+         }
+     }
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:#2f1364fb;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 8px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #c5e8ecfb
+
+}
